@@ -1,0 +1,235 @@
+html,body{
+    background-color:#fff ;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    background-color: #ef5f60;
+    border: 0;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.85;
+}
+.container__content{
+    margin: 0 auto;
+    width: 1196px;
+}
+header{
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+header .log{
+    flex: 1 0 auto;
+}
+header .log img{
+    height: 107px;
+}
+.navigation{
+    list-style: none;
+}
+.navigation li a{
+    color: #4D4D4D;
+    text-decoration: none;
+}
+.navigation li a:hover{
+    color: #ef5f60;
+}
+.navigation li{
+    margin: 0 25px;
+    display: inline-block;
+}
+
+.intro{
+    display: block;
+    height: 208px;
+    width: 100%;
+    background-color:#f1f4f5;
+}
+.intro__content{
+    font-size: 10px;
+    padding: 60px;
+}
+.intro__content__title{
+    font-family: ALKDots;
+    font-size: 2em;
+}
+.intro__content__sub-title{
+    margin: 10px auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.portfolio{
+    display: block;
+    height: 1141px;
+    margin-top: 62px;
+}
+.portfolio__title{
+    font-size: 16px;
+}
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio__items_item{
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 303px;
+    width: 382px;
+    background-color: #E5E5E5;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-image:url("https://www.boyac.com.au/wp-content/uploads/2016/02/suichuka-822x1000.jpg") ;
+}
+
+.portfolio__items_item:after{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.portfolio__items_item__title{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+.portfolio__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio__items_item:hover::after
+{
+    visibility: visible;
+}
+.portfolio__contact{
+    width: 100%;
+    text-align: center;
+}
+.round__container{
+    height: 383px;
+    margin: 0 auto;
+    width: 1196px;
+    margin-top: 40px ;
+    background-color: #fff;
+}
+.round_items{
+    margin: 30px 80px 0 100px ;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:#F0F0F0;
+    border-radius: 100px;
+}
+.round__text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.round__text__subtitle{
+    margin-top: 5px;
+    font-size: 10px;
+    margin: 5px auto;
+}
+.round__text__items {
+    font-size: 15px;
+    margin: 20px 117px 0 100px ;
+    display: inline-block;
+}
+.round__container__text{
+    margin-left: 40px;
+}
+.round__container__text__items{
+    width: 230px;
+    height: 62px;
+    font-size: 10px;
+    margin: 20px 50px 0 0 ;
+    display: inline-block;
+}
+.container__journal{
+    height: 518px;
+    margin: 0 auto;
+    width: 1196px;
+    margin-top: 30px ;
+    background-color: #fff;
+}
+.container__block{
+    margin-top: 30px;
+    width: 200px;
+    height: 240px;
+    background-color: #D3D3D3;
+}
+.date{
+    width: 200px;
+    opacity: 0.6;
+    margin-left: 220px;
+}
+.block{
+    width: 560px ;
+    height: 170px;
+}
+.about{
+    margin-top: 5px;
+    font-weight: bold;
+    width: 330px;
+    margin-left: 220px;
+}
+.short-story{
+    margin-top: 5px;
+    width: 330px;
+    display: inline-block;
+    margin-left: 220px;
+}
+.block__1{
+    margin-top: -200px;
+
+}
+.block__2{
+    margin-top: -540px;
+    margin-left: 700px;
+}
+.block__3{
+    margin-left: 700px;
+}
+.bottom{
+    background-color: #2D2D30;
+    width: 100%;
+    height: 208px;
+    margin-top: 1100px;
+}
+.bottom_text{
+    margin-top: 80px;
+    color: white;
+}
+.bottom_icons{
+    padding: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.bottom_icons_position{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bottom_text_position{
+    justify-content: center;
+    display: flex;
+}
